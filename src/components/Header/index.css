@@ -182,6 +182,8 @@
 
 
 
+
+
 @media only screen and (max-width: 600px) {
     .nav-head {
         height: auto;
@@ -192,6 +194,7 @@
     .head-con1 {
         flex-direction: row;
         align-items: center;
+        justify-content: space-between;
     }
 
     .items-con {
@@ -212,28 +215,29 @@
     }
 
     .img3 {
-        width: 95px;
-        height: 43px;
+        width: 80px;
+        height: 36px;
         margin-right: 10px;
     }
 
     .btn-flex {
-        flex-direction: row;
-        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
         margin-top: 20px;
     }
 
     .btn1,
     .btn2 {
-        width: auto;
-        margin-bottom: 0;
-        margin-right: 10px;
+        width: 150px; 
+        margin-bottom: 10px;
         font-size: 14px;
     }
 
     .btns-arrange {
-        flex-direction: row;
-        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
         margin-bottom: 20px;
         overflow-x: auto; 
     }
