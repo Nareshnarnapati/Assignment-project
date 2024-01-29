@@ -174,52 +174,103 @@
     padding:5px;
    
 }
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
-  
-  
     .nav-head {
-      height: auto;
+        height: auto;
+        padding: 10px;
+        overflow-x: auto; 
     }
-  
+
     .head-con1 {
-      flex-direction: column;
+        flex-direction: row;
+        align-items: center;
     }
-  
+
     .items-con {
-      flex-direction: column;
-      align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
-  
+
+    .img1 {
+        width: 40px;
+        height: 24px;
+    }
+
+    .img2 {
+        width: 32px;
+        height: 24px;
+        margin-left: 5px;
+    }
+
+    .img3 {
+        width: 95px;
+        height: 43px;
+        margin-right: 10px;
+    }
+
     .btn-flex {
-      flex-direction: column;
-      margin-top:20px;
-      
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 20px;
     }
-  
+
     .btn1,
     .btn2 {
-      width: 100%;
-      margin-bottom: 10px;
+        width: auto;
+        margin-bottom: 0;
+        margin-right: 10px;
+        font-size: 14px;
     }
-  
+
     .btns-arrange {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        overflow-x: auto; 
     }
-  
+
     .today-hed,
     .today-hed2 {
-      text-align: center;
-      margin-left: 0;
+        text-align: left;
+        margin-left: 10px;
     }
-  
+
     .class-det {
-      flex-direction: column;
-      width: 100%;
-      height:auto;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        overflow-x: auto; 
     }
-    .video-flex{
-        flex-direction:column;
+
+    .video-flex {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
     }
-  }
-  
+
+    .video-width {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 0;
+    }
+
+    .pad-it {
+        padding-top: 20px;
+    }
+
+    .join-cls {
+        margin: 10px;
+        font-size: 12px;
+    }
+}
